@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Grupo Capacitamos — Inicio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-top">
+      <img src="img/logo.png" alt="Logo Grupo Capacitamos" class="logo">
+      <button class="menu-btn" aria-label="abrir menú">≡</button>
+    </div>
+
+    <div class="slogan">IMPULSA TU FUTURO CON NUEVAS HABILIDADES</div>
+
+    <nav class="main-nav" aria-label="navegación principal">
+      <a href="#" class="nav-item">BELLEZA</a>
+      <a href="#" class="nav-item">SALUD</a>
+      <a href="#" class="nav-item">EDUCACIÓN</a>
+      <a href="#" class="nav-item">VARIOS</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h1 class="title">Grupo Capacitamos de Antioquia</h1>
+      <p class="lead">
+        Somos una empresa dedicada a capacitar y preparar personas para el mundo laboral,
+        brindando herramientas prácticas, formación de calidad y oportunidades reales.
+      </p>
+
+      <aside class="cta-box">
+        <button class="btn-primary">¡Inscríbete aquí!</button>
+      </aside>
+    </section>
+
+    <section class="info-row">
+      <div class="circle-block">
+        <h3>VISIÓN</h3>
+        <p>Ser una institución líder en formación laboral, reconocida por la calidad de nuestros programas.</p>
+      </div>
+
+      <div class="visuals">
+        <img src="img/flyer.png" alt="Flyer" class="flyer">
+        <div class="video-placeholder">video</div>
+      </div>
+    </section>
+
+    <section class="mission">
+      <div class="circle-block">
+        <h3>MISIÓN</h3>
+        <p>Formar y capacitar talento humano mediante programas prácticos y accesibles que fortalezcan sus habilidades.</p>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <img src="img/team.jpg" alt="clase" class="team-photo">
+    </section>
+
+    <footer class="site-footer">
+      <div class="socials">
+        <a href="#" class="social">Facebook</a>
+        <a href="#" class="social">Instagram</a>
+        <a href="#" class="social">TikTok</a>
+      </div>
+      <small>Contacto: 302 453 2734 · grupo@capacitamos.com</small>
+    </footer>
+  </main>
+
+  <!-- Botón WhatsApp flotante -->
+  <a class="whatsapp-fab" href="https://wa.me/573024532734" target="_blank" rel="noopener">
+    <img src="img/logo.png" alt="whatsapp" />
+  </a>
+</body>
+</html>
+    

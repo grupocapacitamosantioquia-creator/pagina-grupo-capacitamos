@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: linear-gradient(90deg, #0d3c6b, #1c5fa8);
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #0d3c6b, #1c5fa8, #4caf50);
+    padding: 80px 60px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.btn-primary {
+    background: #4caf50;
+    border: none;
+    padding: 12px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* CARRERAS */
+.carreras {
+    padding: 60px;
+}
+
+.carreras h2 {
+    margin-bottom: 30px;
+}
+
+.grid-carreras {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-weight: 500;
+}
+
+/* PORQUE */
+.porque {
+    padding: 60px;
+    background: #ffffff;
+}
+
+.porque ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.porque li {
+    margin-bottom: 10px;
+}
+
+/* CONTACTO */
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    background: #e9eef5;
+}
+
+.btn-whatsapp {
+    background: #25d366;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0d3c6b;
+    color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contacto {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+}
